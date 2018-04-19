@@ -1,0 +1,8 @@
+lex and yacc commands
+for yacc:
+
+yacc -d a.y
+lex a.l
+gcc lex.yy.c y.tab.c
+./a.out
+
