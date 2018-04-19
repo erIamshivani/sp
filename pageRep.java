@@ -109,6 +109,7 @@ public class page {
 						{
 							if(pages1[i]==frames[j])		//already existing
 							{
+								fl=0;
 								hits++;
 								least++;
 								lst[j]=least;
