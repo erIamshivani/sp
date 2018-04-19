@@ -36,6 +36,7 @@ Scanner sc = new Scanner(System.in);
 			if(flag == 0){
 				for(int j = 0; j<nFrames; j++){
 					if(pages[i]==frames[j]){
+						flag=0;
 						hits++;
 						break;
 					}
